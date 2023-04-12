@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: test-app
-        image: bravinwasike/flask-kubernetes:latest
+        image: mredman/harness-python-ci-cd:<+pipline.sequenceId>
         resources:
           limits:
             memory: "128Mi"
