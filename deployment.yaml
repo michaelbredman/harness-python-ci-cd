@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: test-app
-        image: {{ .Values.image }} 
+        image: {{.Values.image}} 
         resources:
           limits:
             memory: "128Mi"
