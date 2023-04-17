@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: test-app
-        image: {{.Values.image}} 
+        image: docker.io/mredman/harness-python-ci-cd:1
         resources:
           limits:
             memory: "128Mi"
